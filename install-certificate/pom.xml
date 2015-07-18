@@ -44,7 +44,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <mainClass>at.campusonline.installcert.InstallCert</mainClass>
+                            <mainClass>foundation.softwaredesign.installcert.InstallCert</mainClass>
                             <arguments>
                                 <argument>${install.from.domain}:443</argument>
                             </arguments>

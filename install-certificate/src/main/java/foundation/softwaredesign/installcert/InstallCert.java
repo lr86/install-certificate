@@ -1,4 +1,4 @@
-package at.campusonline.installcert;
+package foundation.softwaredesign.installcert;
 
 import java.io.BufferedReader;
 import java.io.File;
