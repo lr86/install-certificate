@@ -5,7 +5,7 @@
 
     <groupId>foundation.softwaredesign</groupId>
     <artifactId>install-certificate</artifactId>
-	<version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>${project.artifactId} (Install SSL Certificate)</name>
 
@@ -13,13 +13,14 @@
         run mvn clean install -p do-install on this project to install ssl certificate
         from softwaredesign.foundation to java keystore. if getting access denied run
         at Administrator cmd in windows or as sudo (root) on linux
-		
-		source https://github.com/escline/InstallCert
+
+        source https://github.com/escline/InstallCert
     </description>
 
     <properties>
+        <!-- change this values -->
         <install.from.domain>softwaredesign.foundation</install.from.domain>
-		<install.from.domain.port>443</install.from.domain.port>
+        <install.from.domain.port>443</install.from.domain.port>
     </properties>
 
     <profiles>
