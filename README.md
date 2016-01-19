@@ -8,4 +8,4 @@ Helper for installing ssl certificate to java keystore using maven
 # or
 
  - download release from https://github.com/sd-f/install-certificate/releases/download/1.0/install-certificate-1.0.jar
- - and run "sudo java -jar install-certificate-1.0.jar <hostname>:<port>"
+ - and run "sudo java -jar install-certificate-1.0.jar hostname:port"
