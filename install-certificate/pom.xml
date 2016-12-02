@@ -19,7 +19,7 @@
 
     <properties>
         <!-- change this values -->
-        <install.from.domain>cobuild.tugraz.at</install.from.domain>
+        <install.from.domain>localhost</install.from.domain>
         <install.from.domain.port>443</install.from.domain.port>
     </properties>
 
